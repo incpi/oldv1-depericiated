@@ -52,6 +52,14 @@ Mark entry from csv/Txt file ans get saved.
  7. preview:
    ![image](https://github.com/incpi/Swift-Helper-browser-extension/assets/87596092/486cdfc4-6e93-4567-96c3-d8fd9670cafd)
 
+if no exam selected in xamta chatbot
+![image](https://github.com/incpi/Swift-Helper-browser-extension/assets/87596092/fe69e09e-4391-41a3-ae68-376d94e4f9a0)
+
+if it detects:
+![image](https://github.com/incpi/Swift-Helper-browser-extension/assets/87596092/0de103d0-86ec-4570-b2f2-88c572ebc861)
+
+
+
 # Contributing
 
 - I am looking forward to collaborating with the community on this project and I appreciate any contributions and feedback. 
