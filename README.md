@@ -1,0 +1,58 @@
+![image](https://github.com/incpi/Swift-Extension_1.5.3/assets/87596092/c495cd22-9608-4fc8-bf77-6d9a0e62531a)
+
+Early Access Stage --- In dev..
+
+This Browser Plugin automate the mark entry for teachers with some useful features.
+---
+Are you a teacher who uses Saral Gujarat and swift Chat app for Xamta bot?
+If yes, then you will be amazed by this tool. It can do the mark entry process for you automatically, saving you time and effort. It is easy, quick and trustworthy.
+
+## Privacy and Data Protection
+The plugin does not collect personal data. Nevertheless the stores like Chrome Web Store collect some anonymous data like how many users have the plugin installed.
+
+I guarantee:
+
+- No personal data is collected
+- the data does not leave your browser.
+- It is open source so feel free to check the source code.
+
+### Features
+Mark entry from csv/Txt file ans get saved.
+
+## ChangeLog:
+## 2.0.0
+- [Improvement] Popup Bugfix.
+- [Feature] UI Changes.
+
+---
+### 1.0.5 < x < 2.0.0 (NO public versions :-- __**x**__ --Internal Tracking)
+---
+
+## 1.0.2
+- [Bugfix] Extension page added
+
+## 1.0.1
+- first public version for this plugin.
+- [Improvement] Import & export data for swiftchat.
+- [Improvement] Import for saralgujrat site.
+
+## 1.0.0
+- [Bugfix] Data looped fixed
+- [Feature] Swiftchat access to entry marks
+- [Feature] Saral Gujarat site mark enrty
+
+## How to Use it 
+- Refer help section in Extension Popup.
+ 1. Select the exam you want to take from the bot menu.
+ 2. Activate the plugin by clicking on the hover icon at the bottom-right corner of your screen. It will be grey until you hover over it, then it will change color.
+ 3. A popup window will open, where you can verify your details and proceed with the exam.
+ 4. Mark your answers by clicking on the options. The color of the option will switch to blue when you select it. Your answers will be saved automatically.
+ 5. You can also see the attendance status of each student in your exam. The present students will be marked as green and the absent ones as red.
+ 6. When you finish the exam, you can save all your answers by clicking on the button at the end of each row or the Save All button at the bottom of the popup window.
+# Contributing
+
+- I am looking forward to collaborating with the community on this project and I appreciate any contributions and feedback. 
+Before making any significant changes, please create an issue to discuss your proposal and rationale. 
+This is my first attempt at an Open Source project, so I welcome any suggestions on how to improve the code quality, architecture and project management.
+
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
