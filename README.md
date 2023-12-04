@@ -49,6 +49,9 @@ Mark entry from csv/Txt file ans get saved.
  4. Mark your answers by clicking on the options. The color of the option will switch to blue when you select it. Your answers will be saved automatically.
  5. You can also see the attendance status of each student in your exam. The present students will be marked as green and the absent ones as red.
  6. When you finish the exam, you can save all your answers by clicking on the button at the end of each row or the Save All button at the bottom of the popup window.
+ 7. preview:
+   ![image](https://github.com/incpi/Swift-Helper-browser-extension/assets/87596092/486cdfc4-6e93-4567-96c3-d8fd9670cafd)
+
 # Contributing
 
 - I am looking forward to collaborating with the community on this project and I appreciate any contributions and feedback. 
