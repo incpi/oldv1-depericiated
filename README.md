@@ -1,4 +1,6 @@
-![image](https://github.com/incpi/Swift-Extension_1.5.3/assets/87596092/c495cd22-9608-4fc8-bf77-6d9a0e62531a)(https://incpi.github.io/Swift-Helper-browser-extension/)
+[logo](https://imgur.com/duonUiY)
+
+(https://incpi.github.io/Swift-Helper-browser-extension/)
 
 Early Access Stage --- In dev..
 
