@@ -1,7 +1,5 @@
 # [Swift Helper browser extension](https://incpi.github.io/Swift-Helper-browser-extension/)
 
-Early Access Stage --- In dev..
-
 This Browser Plugin automate the mark entry for teachers with some useful features.
 ---
 Are you a teacher who uses Saral Gujarat and swift Chat app for Xamta bot?
