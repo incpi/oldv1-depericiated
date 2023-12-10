@@ -1,6 +1,4 @@
-[logo](https://imgur.com/duonUiY)
-
-(https://incpi.github.io/Swift-Helper-browser-extension/)
+# [Swift Helper browser extension](https://incpi.github.io/Swift-Helper-browser-extension/)
 
 Early Access Stage --- In dev..
 
