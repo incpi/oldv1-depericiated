@@ -1,9 +1,9 @@
-document.querySelector('#imgloop').innerHTML= ()=>{
-    let x=""
-    i=0
-while (i<28){
-    x+="<img src='images/XAMTA Tutorial-"+i+".png ></img></img>"
+ let x="";
+ let i=1
+while (i<=28){
+    x+=`<img src='images/XAMTA Tutorial-${i}.png' class='ui fluid inage'></img>`;
     i++}
+
     return x
 }
 document.querySelector('#h2use').innerHTML=()=>{
