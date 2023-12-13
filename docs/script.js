@@ -7,7 +7,7 @@ while (i<=28){
     i++}
 document.querySelector('#imgloop').innerHTML= x
 }
-function how2()=>{
+function how2(){
    x=`<pre >
    Step 1 - download a zip file with the extension
    If you already have downloaded a file with the plugin - skip this step.
