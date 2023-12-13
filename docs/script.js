@@ -43,7 +43,7 @@ Green : Success state
 yellow : Warning state
 
 </pre>`
-document.querySelector('#pc').innerHTML+=x
+document.querySelector('#pc').innerHTML=x
 }
 document.querySelector('#h2use').innerHTML=xfunction genimgloop(){
  let x="";
