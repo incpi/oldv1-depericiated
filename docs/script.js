@@ -1,5 +1,11 @@
 function pc(){
 x=`<br><br><pre>
+
+Notice:  As Xamta is under new updates. we will wait for those update. then update this section with latest changes. 
+
+This is under development. Thank you for understanding. 
+<hr>
+
 This extension will help you to enter marks with ease.
 
 Step 1.  
