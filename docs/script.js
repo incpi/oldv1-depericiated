@@ -1,5 +1,5 @@
 function pc(){
-x=`<br><br><pre>
+x=`<div class='ui segment '><pre>
 
 Notice:  As Xamta is under new updates. we will wait for those update. then update this section with latest changes. 
 
@@ -42,13 +42,12 @@ Blue : Ready state
 Green : Success state
 yellow : Warning state
 
-</pre>`
+</pre></div>`
 document.querySelector('#pc').innerHTML=x
 }
 
 function genimgloop(){
  let x="";
-
  let i=1
 while (i<=28){
     x+=`<img src='mobile/XAMTA Tutorial-${i}.webp' class='ui fluid inage'></img>`;
