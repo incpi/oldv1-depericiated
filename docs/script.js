@@ -79,7 +79,7 @@ function how2(){
 
 function init(){
 how2();
-genimgloop();
+genimgloop();pc();
 $('.menu .item').tab();}
 
 init()
