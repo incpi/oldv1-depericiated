@@ -45,6 +45,7 @@ yellow : Warning state
 </pre>`
 document.querySelector('#pc').innerHTML=x
 }
+
 function genimgloop(){
  let x="";
 
@@ -54,6 +55,7 @@ while (i<=28){
     i++}
 document.querySelector('#imgloop').innerHTML= x
 }
+
 function how2(){
    x=`<pre >
    Step 1 - download a zip file with the extension
@@ -84,9 +86,9 @@ function how2(){
 }
 
 function init(){
-how2();
-genimgloop();
-pc();
+how2()
+genimgloop()
+pc()
 $('.menu .item').tab();}
 
 init()
