@@ -1,14 +1,13 @@
- document.querySelector('#imgloop').innerHTML=()=>{
+function genimgloop(){
  let x="";
 
  let i=1
 while (i<=28){
     x+=`<img src='images/XAMTA Tutorial-${i}.png' class='ui fluid inage'></img>`;
     i++}
-
-    return x
+document.querySelector('#imgloop').innerHTML= x
 }
-document.querySelector('#h2use').innerHTML=()=>{
+function how2()=>{
    x=`<pre >
    Step 1 - download a zip file with the extension
    If you already have downloaded a file with the plugin - skip this step.
@@ -34,6 +33,12 @@ document.querySelector('#h2use').innerHTML=()=>{
    Then select a folder that contains the manifest.json file.
    </pre>`
    
-    return x
+    document.querySelector('#h2use').innerHTML=x
 }
-$('.menu .item').tab();
+
+function init(){
+how2();
+genimgloop();
+$('.menu .item').tab();}
+
+init()
