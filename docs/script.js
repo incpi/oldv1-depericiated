@@ -85,7 +85,8 @@ function how2(){
 
 function init(){
 how2();
-genimgloop();pc();
+genimgloop();
+pc();
 $('.menu .item').tab();}
 
 init()
