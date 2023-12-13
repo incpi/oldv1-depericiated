@@ -21,6 +21,7 @@ Mark entry from csv/Txt file ans get saved.
 ## 2.0.0
 - [Improvement] Popup Bugfix.
 - [Feature] UI Changes.
+- new site tutorial how to use it. link: https://incpi.github.io/Swift-Helper-browser-extension/
 
 ---
 ### 1.0.5 < x < 2.0.0 (NO public versions :-- __**x**__ --Internal Tracking)
