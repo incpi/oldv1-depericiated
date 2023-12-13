@@ -1,5 +1,5 @@
 function pc(){
-x='<br><br><pre>
+x=`<br><br><pre>
 This extension will help you to enter marks with ease.
 
 Step 1.  
@@ -36,7 +36,7 @@ Blue : Ready state
 Green : Success state
 yellow : Warning state
 
-</pre>'
+</pre>`
 document.querySelector('#pc').innerHTML+=x
 }
 document.querySelector('#h2use').innerHTML=xfunction genimgloop(){
