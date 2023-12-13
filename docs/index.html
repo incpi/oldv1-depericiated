@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swift Helper</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swift Helper</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
 <link href='style.css' rel='stylesheet'></link>
-<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
-<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
 </head>
+
 <body>
+  <div class="ui top attached tabular menu">
+    <a class="active item" data-tab="first">How to install</a>
+    <a class="item" data-tab="second">Desktop</a>
+    <a class="item" data-tab="third">Mobile</a>
+  </div>
+  <div class="ui bottom attached active tab segment" data-tab="first">
+    <div id="h2use"></div>
+  </div>
+  <div class="ui bottom attached tab segment" data-tab="second">
+    <div id="pc"></div>
+  </div>
+  <div class="ui bottom attached tab segment" data-tab="third">
     <div class="ui segment">
-<h3 class="ui header">Welcome!</h3>
-  <div>Follow process through below steps:</div>
-  <div id="imgloop" class="ui fluid"></div></div>
-  <script src="script.js"></script>
+      <h3 class="ui header">Follow process through below steps for mobile</h3>
+      <div id="imgloop" class="ui fluid"></div>
+    </div>
+  </div>
 </body>
+<script src="script.js"></script>
+
 </html>
