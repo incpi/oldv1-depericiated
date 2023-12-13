@@ -45,7 +45,7 @@ yellow : Warning state
 </pre>`
 document.querySelector('#pc').innerHTML=x
 }
-document.querySelector('#h2use').innerHTML=xfunction genimgloop(){
+function genimgloop(){
  let x="";
 
  let i=1
