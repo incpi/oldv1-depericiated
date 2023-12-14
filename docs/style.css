@@ -1,5 +1,9 @@
 #imgloop img{
 width: 100%;
-  padding: 1rem 10rem;
+padding: 2em 30em;
 }
 pre{text-wrap: pretty}
+@media screen and (max-width: 800px) {
+#imgloop img{
+padding: 1em 0em;}
+}
