@@ -1,10 +1,10 @@
 {
   "page_action": {
     "default_icon": {
-      "16": "images/icons/icon16.png",
-      "32": "images/icons/icon32.png",
-      "48": "images/icons/icon48.png",
-      "128": "images/icons/icon128.png"
+      "16": "docs/images/icons/icon16.png",
+      "32": "docs/images/icons/icon32.png",
+      "48": "docs/images/icons/icon48.png",
+      "128": "docs/images/icons/icon128.png"
     },
     "default_popup": "popup/popup.html",
     "default_title": "SaralXamata Helper",
@@ -38,10 +38,10 @@
   "description": "This extension will help to insert marks on bot like xamta and saralgujarat from CSV -for Teachers.",
   "homepage_url": "https://incpi.github.io",
   "icons": {
-    "16": "images/icons/icon16.png",
-    "32": "images/icons/icon32.png",
-    "48": "images/icons/icon48.png",
-    "128": "images/icons/icon128.png"
+    "16": "docs/images/icons/icon16.png",
+    "32": "docs/images/icons/icon32.png",
+    "48": "docs/images/icons/icon48.png",
+    "128": "docs/images/icons/icon128.png"
   },
   "manifest_version": 2,
   "name": "Swift-Helper-Extension Helper",
@@ -52,6 +52,6 @@
     "*://*.convegenius.ai/*"
   ],
   "short_name": "SX Helper",
-  "version": "2.0.0",
-  "web_accessible_resources": ["/images/*", "lib/*"]
+  "version": "2.0.1",
+  "web_accessible_resources": ["/docs/images/*", "lib/*"]
 }
