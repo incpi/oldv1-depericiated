@@ -15,7 +15,7 @@ Install the extension
 
 Step 2. 
 Once you enable this extension, you will get float button at right bottom corner. with greyscale icon simillar to extension page icon. and once you hover over it you will get orange icon theme color option.
-<img sec='Snapshots/float button.png' ></img>
+<img src='Snapshots/floatbutton.png' ></img>
 Step 3.
 click on this extension  it will open a popup which contains data to enter marks.
 if your page is blank, nothing wrong here.<img src='Snapshots/homepage.png'></img> It's because we didn't setup anything yet. enter your relevant information in Xamta bot similar what we do in mobile.
