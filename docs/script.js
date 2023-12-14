@@ -88,6 +88,6 @@ function init(){
 how2()
 genimgloop()
 pc()
-$('.menu a.item').tab();}
-
+$('.menu a[!href].item').tab()
+}
 init()
