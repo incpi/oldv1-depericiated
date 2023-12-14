@@ -37,7 +37,7 @@ function GetTeacherData(lastmsglist, teacherDetails) {
     <button class="ui deny button" autofocus>Close</button> <button class="ui green button">Selected</button>
     <div class="ui file action input"><input accept=".csv,.txt" id="activeimport1" type="file"><label for="activeimport1" class="ui blue button">Choose FILE</label></div>
     </dialog>
-    <a class="ui right item image label"><img src="${get_bot_static.configuration.photo}"> ${get_bot_static.configuration.name} <span class="ui basic ${get_bot_static.configuration.status === "ACTIVE" ? "green" : "red"} basic label"> ${get_bot_static.subscriber_count} </span></a></div >`
+    <a class="ui right item image label"><img class='ui rounded centered image' src="${get_bot_static.configuration.photo}"> ${get_bot_static.configuration.name} <span class="ui basic ${get_bot_static.configuration.status === "ACTIVE" ? "green" : "red"} basic label"> ${get_bot_static.subscriber_count} </span></a></div >`
     div.innerHTML += segement
     return div
 }
@@ -123,7 +123,7 @@ function load_marks_online(id, exam, student) {
     }
 }
 function tablelisten(id, exam, student) {
-    // document.querySelector('#sx_model .header').innerHTML = `<img width="40" src=${chrome.runtime.getURL("images/icon.png")}></img>`
+    // document.querySelector('#sx_model .header').innerHTML = `<img class='ui rounded centered image' width="40" src=${chrome.runtime.getURL("images/icon.png")}></img>`
     document.querySelectorAll(`#${id} tr`).forEach(e => e.addEventListener('change', () => {
         m = 0; document.querySelectorAll(`#${id} tr[sid="${e.getAttribute('sid')}"] input[type="number"]`).forEach(mark => m += parseInt(mark.value))
         document.querySelector(`#${id} tr[sid="${e.getAttribute('sid')}"] td:nth-last-child(2)`).innerHTML = m;

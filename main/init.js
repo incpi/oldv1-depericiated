@@ -2,7 +2,7 @@ function sidebar() {
     model = document.createElement("div")
     model.id = "sx_model"
     model.classList = `ui modal overlay fullscreen ${document.location.host.includes('saral') ? "saralbox" : "chatbox"}`
-    model.innerHTML = `<div class="ui header"> <img src=${chrome.runtime.getURL("images/logobig.png")}></img></div><div class="content"></div>`;
+    model.innerHTML = `<div class="ui header"> <img class='ui rounded centered image' src=${chrome.runtime.getURL("images/logobig.png")}></img></div><div class="content"></div>`;
     document.querySelector('body').appendChild(model)
 }
 
@@ -28,7 +28,7 @@ function start() {
     floatsxbutton = document.createElement("div")
     floatsxbutton.id = "sx_float";
     floatsxbutton.classList = "float loading"
-    floatsxbutton.innerHTML = `<img width="40" src=${chrome.runtime.getURL("images/icon.png")}></img>`
+    floatsxbutton.innerHTML = `<img class='ui rounded centered image' width="40" src=${chrome.runtime.getURL("images/icon.png")}></img>`
     document.querySelector('body').appendChild(floatsxbutton)
     $('#sx_float').on('click', () => {
         const host = document.location.hostname.includes('saral');
