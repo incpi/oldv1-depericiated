@@ -15,10 +15,10 @@ Install the extension
 
 Step 2. 
 Once you enable this extension, you will get float button at right bottom corner. with greyscale icon simillar to extension page icon. and once you hover over it you will get orange icon theme color option.
-
+<img sec='Snapshots/float button.png' ></img>
 Step 3.
 click on this extension  it will open a popup which contains data to enter marks.
-if your page is blank, nothing wrong here. It's because we didn't setup anything yet. enter your relevant information in Xamta bot similar what we do in mobile.
+if your page is blank, nothing wrong here.<img src='Snapshots/homepage.png'></img> It's because we didn't setup anything yet. enter your relevant information in Xamta bot similar what we do in mobile.
 
 once you select exam and subject in chat bot.
 you will get data with your details.
@@ -27,11 +27,11 @@ verify and correct if needed in chatbot.
 Step 4. 
 All the data on screen is visible.
 you can see students name there id's, make them present or absent for this exam.
-
+<img src='Snapshots/exam_snapshot1.png'></img>
 step 5.  
 Enter mark questionwise. if you enter mark raw color will change it to blue. then at the end of same raw. click on save. it will save data. once data is save button will be disabled.
 if it fails you can also retry.
-
+<img src='Snapshots/markentryblue.png'></img>
 Step 6. 
 if you enter marks for multiple students. then all blue raws will be got save by save all button at bottom
 
