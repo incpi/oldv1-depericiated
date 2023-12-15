@@ -23,22 +23,12 @@ Mark entry from csv/Txt file ans get saved.
 - [Feature] UI Changes.
 - new site tutorial how to use it. link: https://incpi.github.io/Swift-Helper-browser-extension/
 
----
-### 1.0.5 < x < 2.0.0 (NO public versions :-- __**x**__ --Internal Tracking)
----
+### redesign everything. more flexible control then ever.
 
 ## 1.0.2
-- [Bugfix] Extension page added
-
+- added export/imports features
 ## 1.0.1
 - first public version for this plugin.
-- [Improvement] Import & export data for swiftchat.
-- [Improvement] Import for saralgujrat site.
-
-## 1.0.0
-- [Bugfix] Data looped fixed
-- [Feature] Swiftchat access to entry marks
-- [Feature] Saral Gujarat site mark enrty
 
 ## How to Use it 
 - Refer help section in Extension Popup.
