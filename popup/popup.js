@@ -3,6 +3,7 @@ function sxinfonode(config) {
         <div class="ui buttons">
             <a class="ui fluid button" target="_blank" href="${config.sglink}"> SARALGUJARAT</a>
             <a class="ui fluid button" target="_blank" href="${config.sclink}"> SWIFTCHAT LITE</a>
+            <a class="ui fluid button" target="_blank" href="${config.help}">Help</a>
         </div>
         <p class="ui horizontal divider header">About</p>
         <div class="ui relaxed divided list">
@@ -30,7 +31,6 @@ function sxinfonode(config) {
     //<iframe id='kofiframe' src='https://ko-fi.com/omiswave/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='omiswave'></iframe>
 }
 
-function sxhelpnode(config) {
     // const setlang = String(localStorage.getItem('sxlang'))
     // div = createElementFromHTML('<div id="sx_lang" className="ui buttons"></div>')
     // div.innerHTML = `<span data="false" class="ui toggle fluid button ${setlang !== 'true' ? 'active' : ''}">English</span><span data="true" class="ui toggle fluid button ${setlang === 'true' ? 'active' : ''}">Gujarati</span>`
@@ -40,17 +40,7 @@ function sxhelpnode(config) {
     //     document.querySelectorAll('#sx_lang>*').forEach(e => e.classList.toggle('active'))
     //     localStorage.setItem('sxlang', document.querySelector('#sx_lang>.active').getAttribute('data') === "true")
     // })
-    document.querySelector('#sxhelp').innerHTML = `<div className="ui segment" style="line-height:2rem">
-    If you want to save an exam marks using the this Swift Helper tool, you need to follow these steps:<br/>
-    <br/>
-    1. Select the exam you want to take from the bot menu.<br/>
-    2. Activate the plugin by clicking on the hover icon at the bottom-right corner of your screen. It will be grey until you hover over it, then it will change color.<br/>
-    3. A popup window will open, where you can verify your details and proceed with the exam.<br/>
-    4. Mark your answers by clicking on the options. The color of the option will switch to blue when you select it. Your answers will be saved automatically.<br/>
-    5. You can also see the attendance status of each student in your exam. The present students will be marked as green and the absent ones as red.<br/>
-    6. When you finish the exam, you can save all your answers by clicking on the button at the end of each row or the Save All button at the bottom of the popup window.<br/>
-    </div>`
-}
+    
 function sxsetting(config) {
     st = [{ label: "Zoom of SWIFT CHAT (in %)", min: 80, max: 120, id: "setchatzoom" }]//{label: "Zoom of saralgujarat (in %)", min: 80, max: 120, id: "setsaralzoom" }
     st.forEach(e => {
@@ -75,11 +65,11 @@ async function main() {
         sclink: "https://web.convegenius.ai/",
         linkedin: "https://www.linkedin.com/in/omiswave/",
         github: "https://github.com/incpi/Swift-Helper-Extension",
-        author: "Omkar"
+        author: "Omkar",
+      "help": "https://incpi.github.io/Swift-Helper-browser-extension"
     }
     checkUpdate();
     sxinfonode(config);
-    sxhelpnode(config);
     sxsetting(config);
 }
 
