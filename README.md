@@ -31,7 +31,11 @@ Mark entry from csv/Txt file ans get saved.
 - first public version for this plugin.
 
 ## How to Use it 
-- Refer help section in Extension Popup.
+- Refer help section in Extension Popup. (use site will be updated later)
+Swift chat lite:
+https://web.convegenius.ai/
+for mark entry with Xamta chat bot
+
  1. Select the exam you want to take from the bot menu.
  2. Activate the plugin by clicking on the hover icon at the bottom-right corner of your screen. It will be grey until you hover over it, then it will change color.
  3. A popup window will open, where you can verify your details and proceed with the exam.
