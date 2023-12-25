@@ -64,7 +64,7 @@ async function main() {
         sglink: "https://www.saralgujarat.in/",
         sclink: "https://web.convegenius.ai/",
         linkedin: "https://www.linkedin.com/in/omiswave/",
-        github: "https://github.com/incpi/Swift-Helper-Extension",
+        github: "https://github.com/incpi/Swift-Helper-browser-extension",
         author: "Omkar",
       "help": "https://incpi.github.io/Swift-Helper-browser-extension"
     }
